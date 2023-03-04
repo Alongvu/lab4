@@ -1,0 +1,46 @@
+vòng tròn lớp công cộng{
+bán kính gấp đôi riêng tư;
+màu chuỗi riêng;
+vòng kết nối công cộng (){
+  siêu();
+}
+vòng tròn công khai (bán kính gấp đôi, màu chuỗi){
+   siêu();
+   this.radius= bán kính;
+   this.color= màu;
+}
+bán kính công cộng (){
+  bán kính trở lại;
+  }
+setradius tĩnh công khai ( bán kính kép){
+  this.radius=bán kính;
+  }
+getcolor công khai (){
+   trả lại màu sắc;
+  }
+setcolor tĩnh công khai (màu chuỗi) {
+   this.color= màu;
+  }
+xi lanh lớp công khai mở rộng vòng tròn {
+  chiều cao gấp đôi riêng tư;
+trụ công cộng (){
+}
+hình trụ công cộng (bán kính gấp đôi, màu chuỗi, chiều cao gấp đôi){
+  siêu (bán kính, màu sắc, chiều cao);
+  this.height=heigt;
+}
+chiều cao gấp đôi công khai (){
+  trả về chiều cao;
+}
+chiều cao tĩnh công khai (chiều cao gấp đôi){
+  chiều cao này = heigt;
+}
+getarea đôi công cộng (){
+   trả về 2*getarea()+2*Math.PI*radius*height ;
+}
+công khai gấp đôi getvolume (){
+    trả lại getarea()* chiều cao;}
+public super tostring +", height "+height ;
+}
+chân trang
+© 2023 GitHub, Inc.

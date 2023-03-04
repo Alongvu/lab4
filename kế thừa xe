@@ -1,0 +1,23 @@
+xe hạng phổ thông{
+   pritave int số dặm;
+   màu chuỗi riêng;
+   chuỗi được bảo vệ thực hiện;
+   public void tăng tốc(){
+      sytem.out.println("xe đang tăng tốc");
+     }
+}
+  xe sang đẳng cấp công cộng kéo dài xe
+  {
+     đặc quyền chuỗi riêng;
+  }
+  xe thử hạng phổ thông
+  {
+     public static void main (chuỗi [] args)
+     {
+     xe c =xe moi();
+     luxerycar lcar= new luxurycar();
+     c.tăng tốc();
+     // điều này sẽ gọi phương thức kế thừa accclerate
+     lcar.accelerate();
+    }
+  }

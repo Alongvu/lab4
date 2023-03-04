@@ -42,5 +42,4 @@ công khai gấp đôi getvolume (){
     trả lại getarea()* chiều cao;}
 public super tostring +", height "+height ;
 }
-chân trang
-© 2023 GitHub, Inc.
+
